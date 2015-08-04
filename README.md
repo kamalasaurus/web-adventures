@@ -48,4 +48,3 @@ May the journey be joined.
 - transmissable (water, unlike other unnavigable terrain, permits arrows to fly through)
 - map editor create an image w/ colored squares for terrain type (land, water, trees, cliff, doors) and a map w/ pseudo-random tileset is generated.
 - figure out way to create castles/houses/treehouses with similar approach.
-- 
