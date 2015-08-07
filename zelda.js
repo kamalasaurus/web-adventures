@@ -71,6 +71,8 @@ window.link = function(game, img) {
   this.fullHealth = 6;
   this.currentHealth = 5;
 
+  this.activeKeys = [];
+
   this.sequences = {
 
     stopped: new spriteSequenceDirections(
@@ -105,11 +107,13 @@ window.link = function(game, img) {
 
   this.keydown = function(e) {
     var direction = this.keyCheck[String(e.keyCode)];
+    this.activeKeys[e.keyCode] = true;
     if (direction !== undefined) { this.animate.call(this, direction); }
     if (!this.movementTimer)     { this.animationIndex = 0; }
   };
 
   this.keyup = function(e) {
+    this.activeKeys[e.keyCode] = false;
     this.sequence = this.sequences.stopped[this.getDirection()];
     window.clearInterval(this.movementTimer);
     this.movementTimer = null;
