@@ -1,0 +1,1 @@
+module.exports = require("npm:mixin@0.2.0/mixin");

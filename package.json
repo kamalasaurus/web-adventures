@@ -1,0 +1,30 @@
+{
+  "name": "web-adventures",
+  "version": "0.0.2",
+  "description": "The journey begins.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamalasaurus/web-adventures.git"
+  },
+  "author": "K-_-R <kamalasaurus@gmail.com> (http://kamalasaurus.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamalasaurus/web-adventures/issues"
+  },
+  "homepage": "https://github.com/kamalasaurus/web-adventures#readme",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "mixin": "npm:mixin@^0.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}

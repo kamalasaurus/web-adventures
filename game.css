@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#app {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: #efefef;
+}
