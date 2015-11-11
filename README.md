@@ -4,10 +4,14 @@ May the journey be joined.
 
 ### how to launch
 
+1. `git clone` this repository
+2. `npm install -g jspm`
+3. `npm install -g live-server`
+4. `jspm install` in root directory
+5. `live-server` in root directory
+
 web-adventures is now a ES6/JSPM project! To work with it in development
-mode, make sure to download a recent version of node via nvm. Then `npm
-install -g live-server`. Since this is intended to just be a client,
-bundle up all the assets with jspm's `sfx-bundle` and drop the dist into
+mode, make sure to download a recent version of node via nvm. Since this is intended to just be a client, bundle up all the assets with jspm's `sfx-bundle` and drop the dist into
 a backend of your choosing!
 
 ####hero
