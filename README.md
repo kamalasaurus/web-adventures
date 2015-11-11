@@ -2,21 +2,18 @@
 
 May the journey be joined.
 
-###todo for bare-minimum canvas/dom interactions
+### how to launch
 
-####general
-- potentially convert to JSPM and ES6
-- it will be less hackable, but the modules will be really helpful for forks :/
-- generalize interaction model for either DOM or canvas
+web-adventures is now a ES6/JSPM project! To work with it in development
+mode, make sure to download a recent version of node via nvm. Then `npm
+install -g live-server`. Since this is intended to just be a client,
+bundle up all the assets with jspm's `sfx-bundle` and drop the dist into
+a backend of your choosing!
 
 ####hero
 
-- rename to "hero"
-- diagonal movement
 - attack animation hook
 - collision detection for attack and movement
-
-###extended todo for generalizable canvas web game 
 
 ####general
 
@@ -24,9 +21,6 @@ May the journey be joined.
 
 ####hero
 
-- factor out NPC mixin for non-combatants and all sprites
-- factor out character mixin for enemies and heroes
-- factor out keyboard interactions mixin for the hero(s) to inherit
 - add optional hero portrait
 
 ####enemies
@@ -48,3 +42,4 @@ May the journey be joined.
 - transmissable (water, unlike other unnavigable terrain, permits arrows to fly through)
 - map editor create an image w/ colored squares for terrain type (land, water, trees, cliff, doors) and a map w/ pseudo-random tileset is generated.
 - figure out way to create castles/houses/treehouses with similar approach.
+
