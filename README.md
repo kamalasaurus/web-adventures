@@ -11,8 +11,7 @@ May the journey be joined.
 5. `live-server` in root directory
 
 web-adventures is now a ES6/JSPM project! To work with it in development
-mode, make sure to download a recent version of node via nvm. Since this is intended to just be a client, bundle up all the assets with jspm's `sfx-bundle` and drop the dist into
-a backend of your choosing!
+mode, make sure to download a recent version of node via nvm. Since this is intended to just be a client, bundle up all the assets with jspm's `jspm bundle-sfx lib/main.js --minify` and drop the build.js and build.js.map into a backend of your choosing!
 
 ####hero
 

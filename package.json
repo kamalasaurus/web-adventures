@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/kamalasaurus/web-adventures#readme",
   "jspm": {
-    "directories": {},
     "dependencies": {
       "mixin": "npm:mixin@^0.2.0"
     },
